@@ -58,7 +58,7 @@ eksctl version
 ```bash
 eksctl create cluster \
 --name eks-fargate \
---version 1.18 \
+--version 1.19 \
 --nodegroup-name mg-nodegroup-1 \
 --nodes 1 \
 --nodes-min 1 \
